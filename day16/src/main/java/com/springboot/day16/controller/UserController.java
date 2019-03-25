@@ -24,7 +24,7 @@ public class UserController {
      * @return
      */
     @RequestMapping(value = "/list")
-    public List<UserEneity> list(){
+    public List<UserEneity> list() {
         return userService.list();
     }
 

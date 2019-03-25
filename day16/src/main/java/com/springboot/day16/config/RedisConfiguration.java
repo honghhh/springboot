@@ -27,7 +27,7 @@ import java.lang.reflect.Method;
  */
 @Configuration
 @EnableCaching
-public class RedisConfiguration extends CachingConfigurerSupport  {
+public class RedisConfiguration extends CachingConfigurerSupport {
 
     /**
      * 自定义生成key的规则
@@ -46,14 +46,15 @@ public class RedisConfiguration extends CachingConfigurerSupport  {
                 sb.append(method.getName());
                 // 遍历参数并且追加
                 for (Object obj : objects) {
-                  sb.append(obj.toString());
-                  System.out.println(obj.toString());
+                    sb.append(obj.toString());
+                    System.out.println(obj.toString());
                 }
                 System.out.println("调用Redis缓存key：" + sb.toString());
                 return sb.toString();
             }
         };
     }
+
     /**
      * 采用RedisCacheManager作为缓存管理器
      * @param redisTemplate
