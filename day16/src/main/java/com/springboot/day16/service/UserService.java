@@ -7,6 +7,7 @@ import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
+import javax.swing.*;
 import java.util.List;
 
 /**
@@ -22,6 +23,9 @@ public class UserService {
     @Autowired
     private UserJPA userJPA;
 
+    /* Spring Cache是作用在方法上的，其核心思想是：当我们在调用一个缓存方法时会把该方法参数和返回结果作为一个键值对存放在缓存中，
+       等到下次利用同样的参数来调用该方法时将不再执行该方法，而是直接从缓存中获取结果进行返回。@CacheConfig在类上面统一定义缓存的
+       名字，方法上面就不用标注了，当标记在一个类上时则表示该类所有的方法都是支持缓存的 */
     @Cacheable
     public List<UserEneity> list() {
         return userJPA.findAll();

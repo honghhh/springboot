@@ -22,6 +22,7 @@ import java.lang.reflect.Method;
  * <p> 1.进入到Redis解压目录并且执行redis-server.exe redis.windows.conf命令开启redis </p>
  * <p> 2.配置redis连接application.yml </p>
  * <p> 3.@EnableCaching 开启项目缓存支持 </p>
+ * <p> 4.配置@CacheConfig缓存类，或配置@Cacheable缓存方法</p>
  * @author: huangh
  */
 @Configuration
