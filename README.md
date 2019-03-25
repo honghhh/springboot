@@ -14,4 +14,4 @@ springboot学习地址: https://www.jianshu.com/p/9a08417e4e84
 * day12：SpringBoot使用LogBack作为日志组件
 * day13：SpringBoot实战SpringDataJPA
 * day14：QueryDSL与SpringDataJPA共同服务于SpringBoot
-* day15: 使用SpringBoot validator让数据更真实
+* day15：使用SpringBoot validator让数据更真实
