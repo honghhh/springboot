@@ -18,3 +18,4 @@ springboot学习地址: https://www.jianshu.com/p/9a08417e4e84
 * day16：使用Redis作为SpringBoot1.5.x项目数据缓存
 * day17：使用SpringSecurity让SpringBoot项目更安全
 * day18：SpringBoot项目中使用SpringSecurity整合OAuth2设计项目API安全接口服务
+* day19：使用jwt设计SpringBoot项目api接口安全服务
