@@ -21,3 +21,4 @@ springboot学习地址: https://www.jianshu.com/p/9a08417e4e84
 * day19：使用jwt设计SpringBoot项目api接口安全服务
 * day20：SpringBoot项目中使用WebSocker配置广播式通信
 * day21：SpringBoot项目中的全局异常处理
+* day22：SpringBoot项目多模块运用与设计
