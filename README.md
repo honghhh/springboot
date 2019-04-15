@@ -23,3 +23,4 @@ springboot学习地址: https://www.jianshu.com/p/9a08417e4e84
 * day21：SpringBoot项目中的全局异常处理
 * day22：SpringBoot项目多模块运用与设计
 * day23：SpringBoot项目多模块打包与部署
+* day24：SpringBoot项目多数据源配置
